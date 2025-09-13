@@ -42,7 +42,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-image: url("src/assets/imgs/1461f3d6ff74c027a1888544144abe4be6e02cbf.jpg");
+  background-image: url("src/assets/imgs/common.jpg");
   background-size: cover;
   background-position: center;
   background-color: white;

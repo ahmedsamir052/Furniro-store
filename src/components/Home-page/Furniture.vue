@@ -7,7 +7,7 @@
 </template>
 
 <script setup>
-import img from "@/assets/imgs/images.png";
+import img from "@/assets/imgs/Images.png";
 </script>
 <style scope>
 .Furniture {
