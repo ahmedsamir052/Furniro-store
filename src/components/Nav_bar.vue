@@ -18,16 +18,16 @@
         class="links d-flex justify-content-between"
         :class="{ 'mobile-visible': showMenu }"
       >
-        <RouterLink to="/Home" @click.native="closeMenu" class="link text-decoration-none"
+        <RouterLink to="/home" @click.native="closeMenu" class="link text-decoration-none"
           >Home</RouterLink
         >
-        <RouterLink to="/Shop" @click.native="closeMenu" class="link text-decoration-none"
+        <RouterLink to="/shop" @click.native="closeMenu" class="link text-decoration-none"
           >Shop</RouterLink
         >
-        <RouterLink to="/About" @click.native="closeMenu" class="link text-decoration-none"
+        <RouterLink to="/about" @click.native="closeMenu" class="link text-decoration-none"
           >About</RouterLink
         >
-        <RouterLink to="/Contact" @click.native="closeMenu" class="link text-decoration-none"
+        <RouterLink to="/contact" @click.native="closeMenu" class="link text-decoration-none"
           >Contact</RouterLink
         >
       </div>
@@ -77,7 +77,7 @@
           <RouterLink :to="{ name: 'CartMain' }"
             ><button>Cart</button></RouterLink
           >
-          <RouterLink to="/Checkout-page"><button>Checkout</button></RouterLink>
+          <RouterLink to="/checkout"><button>Checkout</button></RouterLink>
           <button>Comparison</button>
         </div>
       </div>
