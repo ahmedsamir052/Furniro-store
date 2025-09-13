@@ -314,7 +314,6 @@ function goToNavbar(id) {
   display: flex;
   gap: 1rem;
   align-items: center;
-  margin-top: 1rem;
   margin-bottom: 5rem;
   flex-wrap: wrap;
   margin-top: 2rem;
@@ -402,7 +401,7 @@ p {
     height: 100%;
   }
   .descrip {
-    width: 70%;
+    width: 80%;
   }
   .sec-top h1 {
     font-size: 17px;
@@ -425,7 +424,7 @@ p {
     margin: 0 0.2rem;
   }
   .description p {
-    font-size: 9px;
+    font-size: 10px;
     width: 100%;
   }
   .sec-size {
@@ -457,6 +456,7 @@ p {
   .actions {
     margin-bottom: 2rem;
     margin-top: 0rem;
+    gap: 0.5rem;
   }
   .quantity {
     border-radius: 20px;
@@ -466,17 +466,17 @@ p {
     font-size: 10px;
   }
   .quantity span {
-    padding: 0 1.5rem;
+    padding: 0 1rem;
     font-size: 10px;
   }
   .btn {
-    padding: 0.5rem 0.7rem;
+    padding: 0.5rem 0.6rem;
     font-size: 9px;
     line-height: 10px;
   }
   .sec-bottom {
-    margin: 1rem 0;
     width: 100%;
+    margin: 1rem 0;
   }
   .sec-bottom span {
     display: flex;

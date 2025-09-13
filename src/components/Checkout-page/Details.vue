@@ -137,10 +137,8 @@
 .checkout-left input,
 select {
   box-sizing: border-box;
-  width: 460px;
+  width: 67%;
   height: 70px;
-  left: 176px;
-  top: 807px;
   border: 1px solid #9f9f9f;
   border-radius: 10px;
   padding-right: 1rem;
@@ -161,7 +159,7 @@ select {
 }
 .Name .first input,
 .Name .last input {
-  width: 211px;
+  width: 100%;
   height: 75px;
   border: 1px solid #9f9f9f;
   border-radius: 10px;
@@ -401,7 +399,7 @@ p {
   .direct-cash h5 {
     font-size: 10px;
   }
-  .direct-cash .fa-circle{
+  .direct-cash .fa-circle {
     font-size: 10px;
   }
   .person-data {
@@ -415,6 +413,332 @@ p {
     padding: 0.2rem 1rem;
     font-size: 11px;
     margin-top: 1rem;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .checkout {
+    display: block;
+  }
+  .checkout-left {
+    width: 75%;
+    padding: 0rem;
+    margin: auto;
+  }
+  .checkout-left h1 {
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  .Name {
+    display: block;
+    margin-bottom: 1rem;
+  }
+  .Name .first input,
+  .Name .last input {
+    width: 100%;
+    height: 35px;
+    margin-bottom: 0rem;
+  }
+  .Name .first label,
+  .Name .last label {
+    margin-bottom: 0rem;
+    display: flex;
+    justify-content: center;
+  }
+  .checkout-left label {
+    font-size: 11px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem;
+  }
+  .checkout-left input,
+  select {
+    width: 100%;
+    height: 35px;
+    font-size: 11px;
+    font-weight: 600;
+  }
+  .Optional {
+    margin: 1rem 0;
+  }
+  .checkout-right {
+    width: 100%;
+    padding-bottom: 1.5rem;
+  }
+  .items {
+    width: 100%;
+  }
+  .info-heading {
+    padding-bottom: 0rem;
+  }
+  .info-heading h4 {
+    font-size: 12px;
+  }
+  .info-name p {
+    font-size: 12px;
+  }
+  .info-name span {
+    font-size: 12px;
+  }
+  .info-name .RS {
+    font-weight: 500;
+    font-size: 12px;
+  }
+  .info-sub h4 {
+    font-size: 12px;
+  }
+  .info-sub .RS {
+    font-size: 12px;
+  }
+  .info-total h4 {
+    font-size: 12px;
+  }
+  .info-total p {
+    font-size: 12px;
+  }
+  .payment {
+    margin-top: 1rem;
+  }
+  .direct h5 {
+    font-size: 12px;
+  }
+  .direct .fa-circle {
+    font-size: 12px;
+  }
+  p {
+    font-size: 9px;
+    margin-top: 0.5rem;
+    margin-bottom: 0.7rem;
+  }
+  .direct-cash {
+    margin-bottom: 1.3rem;
+  }
+  .direct-cash .first,
+  .last2 {
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.7rem;
+  }
+  .direct-cash h5 {
+    font-size: 12px;
+  }
+  .direct-cash .fa-circle {
+    font-size: 12px;
+  }
+  .person-data {
+    font-size: 9px;
+  }
+  .person-data span {
+    font-size: 9px;
+  }
+  .botton {
+    width: 40%;
+    padding: 0.2rem 1rem;
+    font-size: 13px;
+    margin-top: 1rem;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .checkout {
+    width: 95%;
+  }
+  .checkout-left {
+    width: 40%;
+    padding: 0;
+  }
+  .checkout-left h1 {
+    font-size: 22px;
+  }
+  .checkout-left label {
+    font-size: 14px;
+    padding: 1rem 0;
+  }
+  .checkout-left input,
+  select {
+    width: 100%;
+    height: 50px;
+    padding-left: 0.7rem;
+    font-size: 14px;
+  }
+  .Name {
+    gap: 1rem;
+  }
+  .Name .first input,
+  .Name .last input {
+    width: 100%;
+    height: 50px;
+  }
+  .Optional {
+    margin: 2rem 0;
+  }
+  .checkout-right {
+    width: 50%;
+    padding: 0rem 1rem;
+  }
+  .items {
+    width: 95%;
+  }
+  .info-heading {
+    padding-bottom: 0.5rem;
+  }
+  .info-heading h4 {
+    font-size: 22px;
+    margin-bottom: 0;
+  }
+  .info-name p {
+    font-size: 14px;
+  }
+  .info-name span {
+    font-size: 14px;
+  }
+  .info-name .RS {
+    font-size: 14px;
+  }
+  .info-sub h4 {
+    font-size: 14px;
+    margin-bottom: 0;
+  }
+  .info-sub .RS {
+    font-size: 14px;
+  }
+  .info-total {
+    padding-bottom: 1rem;
+  }
+  .info-total h4 {
+    margin-bottom: 0;
+    font-size: 16px;
+  }
+  .info-total p {
+    font-size: 14px;
+  }
+  .direct h5 {
+    font-size: 16px;
+  }
+  p {
+    font-size: 14px;
+  }
+  .direct-cash .first,
+  .last2 {
+    margin-bottom: 0.5rem;
+  }
+  .direct-cash h5 {
+    margin: 0;
+    font-size: 14px;
+  }
+  .person-data {
+    font-size: 14px;
+  }
+  .person-data span {
+    font-size: 14px;
+  }
+  .botton {
+    width: 55%;
+    margin: auto;
+    padding: 0.5rem 0rem;
+    font-size: 17px;
+    margin-top: 2rem;
+  }
+}
+@media screen and (min-width: 1025px) and (max-width: 1240px) {
+  .checkout {
+    width: 90%;
+  }
+  .checkout-left {
+    width: 40%;
+    padding: 0;
+  }
+  .checkout-left h1 {
+    font-size: 27px;
+  }
+  .checkout-left label {
+    font-size: 15px;
+    padding: 1rem 0;
+  }
+  .checkout-left input,
+  select {
+    width: 100%;
+    height: 55px;
+    padding-left: 0.7rem;
+    font-size: 15px;
+  }
+  .Name {
+    gap: 1rem;
+  }
+  .Name .first input,
+  .Name .last input {
+    width: 100%;
+    height: 55px;
+  }
+  .Optional {
+    margin: 3rem 0;
+  }
+  .checkout-right {
+    width: 50%;
+    padding: 0rem 1rem;
+  }
+  .items {
+    width: 95%;
+  }
+  .info-heading {
+    padding-bottom: 0.5rem;
+  }
+  .info-heading h4 {
+    font-size: 27px;
+    margin-bottom: 0;
+  }
+  .info-name p {
+    font-size: 15px;
+  }
+  .info-name span {
+    font-size: 15px;
+  }
+  .info-name .RS {
+    font-size: 15px;
+  }
+  .info-sub h4 {
+    font-size: 15px;
+    margin-bottom: 0;
+  }
+  .info-sub .RS {
+    font-size: 15px;
+  }
+  .info-total {
+    padding-bottom: 1rem;
+  }
+  .info-total h4 {
+    margin-bottom: 0;
+    font-size: 16px;
+  }
+  .info-total p {
+    font-size: 15px;
+  }
+  .direct h5 {
+    font-size: 17px;
+  }
+  p {
+    font-size: 15px;
+  }
+  .direct-cash .first,
+  .last2 {
+    margin-bottom: 0.5rem;
+  }
+  .direct-cash h5 {
+    margin: 0;
+    font-size: 15px;
+  }
+  .person-data {
+    font-size: 15px;
+  }
+  .person-data span {
+    font-size: 15px;
+  }
+  .botton {
+    width: 50%;
+    margin: auto;
+    padding: 0.5rem 0rem;
+    font-size: 18px;
+    margin-top: 2rem;
   }
 }
 </style>

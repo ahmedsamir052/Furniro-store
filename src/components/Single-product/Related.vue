@@ -197,7 +197,7 @@ span .price {
     gap: 0.3rem;
   }
   .card {
-    width: 60%;
+    width: 100%;
     margin: auto;
   }
   .discount-label {

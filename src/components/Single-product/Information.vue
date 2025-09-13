@@ -108,16 +108,16 @@ import discript2 from "@/assets/imgs/discript2.png";
     margin: 1rem 0;
   }
   .info .title {
-    width: 53%;
+    width: 80%;
   }
   .title span {
-    font-size: 14px;
+    font-size: 12px;
   }
   .title p {
-    font-size: 14px;
+    font-size: 12px;
   }
   .info .description p {
-    font-size: 9px;
+    font-size: 10px;
     margin-top: 0rem;
   }
   .imgs {

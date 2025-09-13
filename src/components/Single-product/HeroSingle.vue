@@ -2,8 +2,25 @@
   <div class="hero-bg" data-aos="fade-up">
     <div class="hero">
       <div class="text">
+        <!-- <div class="ddd"> -->
+          <p class="word">Home</p>
+          <p class="icon"><i class="fa-solid fa-angle-right"></i></p>
+          <p class="word">Shop</p>
+          <p class="icon"><i class="fa-solid fa-angle-right"></i></p>
+        <!-- </div> -->
+      </div>
+      <div class="border1">
+        <div class="divider"></div>
+      </div>
+      <div class="sofa">
+        <p>Asgaard sofa</p>
+      </div>
+    </div>
+  </div>
+  <!-- <div class="hero-bg" data-aos="fade-up">
+    <div class="hero">
+      <div class="text">
         <p>Home</p>
-
         <span><i class="fa-solid fa-angle-right"></i></span>
         <p>Shop</p>
         <span><i class="fa-solid fa-angle-right"></i></span>
@@ -11,7 +28,7 @@
       <div class="divider"></div>
       <p class="sofa">Asgaard sofa</p>
     </div>
-  </div>
+  </div> -->
 </template>
 <style scoped>
 .hero-bg {
@@ -20,62 +37,72 @@
   align-content: center;
 }
 .hero {
-  width: 89%;
+  width: 86%;
   margin: auto;
   display: flex;
+  /* justify-content: space-between; */
 }
-.text {
+.text{
+  width: 13%;
   display: flex;
-  gap: 1rem;
-  text-align: center;
-  width: 10%;
+  align-items: center;
 }
-.text p {
+.ddd{
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.text .word{
+  width: 25%;
+  text-align: center;
   font-weight: 400;
   font-size: 16px;
   color: #9f9f9f;
-  margin-bottom: 0;
-  display: flex;
-  align-items: center;
 }
-.text span {
+.text .icon{
+  width: 25%;
+  text-align: center;
   font-size: 13px;
-  display: flex;
-  align-items: center;
+}
+.border1{
+  width: 1%;
+  border: none;
 }
 .divider {
   width: 2px;
   height: 2rem;
   background-color: #9f9f9f;
-  margin-left: 3rem;
-  margin-right: 1rem;
 }
-.sofa {
-  margin-bottom: 0;
-  width: 10%;
-  font-weight: 400;
+.sofa{
   font-size: 16px;
-  color: #000000;
+  font-weight: 400;
+  width: 10%;
 }
 @media screen and (max-width: 576px) {
   .hero-bg {
     height: 50px;
   }
   .hero {
-    width: 50%;
-    margin: 0;
+    width: 90%;
   }
   .text {
-    width: 100%;
+    width: 60%;
     margin-bottom: 0;
   }
-  .text p {
+  .text .word {
+    width: 20%;
     font-size: 10px;
     margin-right: 5px;
+    margin-bottom: 0;
   }
-  .text span {
+  .text .icon {
+    width: 20%;
     font-size: 10px;
     margin-right: 5px;
+    margin-bottom: 0;
+  }
+  .border1{
+    width: 5%;
   }
   .divider {
     height: 1rem;
@@ -83,9 +110,12 @@
     margin-right: 5px;
   }
   .sofa {
+    width: 100%;
+  }
+  .sofa p{
+    margin-bottom: 0;
     font-weight: 400;
     font-size: 12px;
-    width: 100%;
   }
 }
 @media screen and (min-width: 577px) and (max-width: 768px) {
@@ -102,11 +132,11 @@
     margin-bottom: 0;
     gap: 0.5rem;
   }
-  .text p {
+  .text .word {
     font-size: 13px;
     margin-right: 0px;
   }
-  .text span {
+  .text .icon {
     font-size: 10px;
     margin-right: 0px;
   }

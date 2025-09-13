@@ -68,6 +68,7 @@
 .footer {
   width: 86%;
   margin: auto;
+  margin-bottom: 3rem;
   padding-top: 3rem;
 }
 .footer-top {
